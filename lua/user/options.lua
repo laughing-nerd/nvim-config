@@ -1,0 +1,17 @@
+vim.opt.clipboard = "unnamedplus"					-- Enables nvim to access the system clipboard
+vim.opt.number = true											-- Enables line number
+vim.opt.relativenumber = true							-- Enables relative line number
+vim.opt.shiftwidth = 2										-- The numebr of spaces for each indentation
+vim.opt.tabstop = 2												-- Insert 2 spaces for a tab
+vim.opt.cursorline = true									-- Highlights the current line
+vim.opt.splitbelow = true									-- Forces all horizontal splits to go below the current window
+vim.opt.smartcase = true									-- Smart case
+vim.opt.smartindent = true								-- Make indentations smart
+vim.opt.splitright = true									-- Forces all vertical splits to go the right of the current window
+vim.opt.guifont = "monospace:h17"					-- The font used in graphical neovim application
+vim.opt.wrap = false											-- Disables text wrapping
+vim.opt.showtabline = 2										-- Always show tabs
+vim.opt.hlsearch = true										-- Highlights all matching search pattern
+vim.opt.ignorecase = true									-- Pattern searches are not case sensitive
+vim.opt.sidescrolloff = 8
+vim.opt.scrolloff = 8
