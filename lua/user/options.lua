@@ -1,6 +1,6 @@
 vim.opt.clipboard = "unnamedplus"					-- Enables nvim to access the system clipboard
 vim.opt.number = true											-- Enables line number
-vim.opt.relativenumber = true							-- Enables relative line number
+--vim.opt.relativenumber = true							-- Enables relative line number
 vim.opt.shiftwidth = 2										-- The numebr of spaces for each indentation
 vim.opt.tabstop = 2												-- Insert 2 spaces for a tab
 vim.opt.cursorline = true									-- Highlights the current line
