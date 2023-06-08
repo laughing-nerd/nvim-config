@@ -12,4 +12,3 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 keymap('n', '<C-b>', ':NvimTreeToggle<CR>', opts) 	-- Opens NvimTree
 keymap('n', '<C-l>', ":vsplit<CR>", opts) 					-- Splits a window vertically
 keymap('n', '<C-k>', ":split<CR>", opts)						-- Splits a window horizontally
-
